@@ -69,6 +69,14 @@
             "schema": {
               "$ref": "#/components/schemas/initialTransactionId"
             }
+          },
+          {
+            "in": "header",
+            "name": "mpID",
+            "description": "MP-ID des anfragenden Lieferanten",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "requestBody": {
